@@ -1,119 +1,130 @@
 created_by: IBM
+version: 1
 seed_examples:
-- answer: "The time period during which the rent is $50,000 is June 1, 2016 to May\
-    \ 31, 2017. \n"
-  context: "## COMMERCIAL LEASE AGREEMENT\n\nTHIS LEASE AGREEMENT is made and entered\
-    \ into on December 1, 2013, by and between Temple CB, LLC, whose address is 4350\
-    \ Temple City Boulevard, El Monte, California 91731 (hereinafter referred to as\
-    \ 'Landlord '), and Okra Energy, Inc., whose address is 4350 Temple City Boulevard,\
-    \ El Monte, California 91731 (hereinafter referred to as 'Tenant ').\n\n## ARTICLE\
-    \ I-GRANT OF LEASE\n\nLandlord, in consideration of the rents to be paid and the\
-    \ covenants and agreements to be performed and observed by the Tenant, does hereby\
-    \ lease to the Tenant and the Tenant does hereby lease and take from the Landlord\
-    \ the property described in Exhibit 'A ' attached hereto and by reference made\
-    \ a part hereof (the 'Leased Premises '), together with, as part of the parcel,\
-    \ all improvements located thereon.\n\n## ARTICLE II-LEASE TERM\n\nSection l.\
-    \ Term of Lease. The term of this Lease shall begin on the Commencement Date,\
-    \ as defined in Section 2 of this Article II, and shall terminate on May 31, 2020\
-    \ ('the Termination Date '); provided, however, that at the option of Tenant,\
-    \ Tenant may renew this Lease for five additional successive one-year terms at\
-    \ a Monthly Rent of $100,000 per month, provided that notice of such renewal is\
-    \ given in writing no less than 120 days prior to the Termination Date or the\
-    \ expiration of any one-year renewal term. Tenant may at any time cancel this\
-    \ Lease and terminate all of its obligations hereunder by the payment of $300,000,\
-    \ plus all other amounts then due under this Lease.\n\nSection 2. Commencement\
-    \ Date. The 'Commencement Date ' shall mean December 1, 2013.\n\n## ARTICLE III-EXTENSIONS\n\
-    \nThe parties hereto may elect to extend this Agreement upon such terms and conditions\
-    \ as may be agreed upon in writing and signed by the parties at the time of any\
-    \ such extension.\n\n## ARTICLE IV-DETERMINATION OF RENT\n\nSection 1. Monthly\
-    \ Rent: The Tenant agrees to pay the Landlord and the Landlord agrees to accept,\
-    \ during the term hereof, at such place as the Landlord shall from time to time\
-    \ direct by notice to the Tenant, monthly rent set forth in the following table:\n\
-    \n| Initial Period of December 1, 2013 to May 31, 2014:\_\_| $ 0\_\_\_|\n|-------------------------------------------------------|----------|\n\
-    | June 1, 2014 to May 31, 2015:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 30,000 |\n| June\
-    \ 1, 2015 to May 31, 2016:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 40,000 |\n| June 1, 2016\
-    \ to May 31, 2017:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 50,000 |\n| June 1, 2017 to May\
-    \ 31, 2018:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 60,000 |\n| June 1, 2019 to May 31, 2020:\_\
-    \_\_\_\_\_\_\_\_\_\_\_\_| $ 70,000 |\n"
-  question: "During which time periods is the monthly rent $50,000? \n"
+- answer: >
+    The time period during which the rent is $50,000 is June 1, 2016 to May
+    31, 2017.
+  context: >
+    ## COMMERCIAL LEASE AGREEMENTTHIS LEASE AGREEMENT is made and entered
+    into on December 1, 2013, by and between Temple CB, LLC, whose address is 4350
+    Temple City Boulevard, El Monte, California 91731 (hereinafter referred to as
+    'Landlord '), and Okra Energy, Inc., whose address is 4350 Temple City Boulevard,
+    El Monte, California 91731 (hereinafter referred to as 'Tenant ').## ARTICLE
+    I-GRANT OF LEASELandlord, in consideration of the rents to be paid and the
+    covenants and agreements to be performed and observed by the Tenant, does hereby
+    lease to the Tenant and the Tenant does hereby lease and take from the Landlord
+    the property described in Exhibit 'A ' attached hereto and by reference made
+    a part hereof (the 'Leased Premises '), together with, as part of the parcel,
+    all improvements located thereon.## ARTICLE II-LEASE TERMSection l.
+    Term of Lease. The term of this Lease shall begin on the Commencement Date,
+    as defined in Section 2 of this Article II, and shall terminate on May 31, 2020
+    ('the Termination Date '); provided, however, that at the option of Tenant,
+    Tenant may renew this Lease for five additional successive one-year terms at
+    a Monthly Rent of $100,000 per month, provided that notice of such renewal is
+    given in writing no less than 120 days prior to the Termination Date or the
+    expiration of any one-year renewal term. Tenant may at any time cancel this
+    Lease and terminate all of its obligations hereunder by the payment of $300,000,
+    plus all other amounts then due under this Lease.Section 2. Commencement
+    Date. The 'Commencement Date ' shall mean December 1, 2013.## ARTICLE III-EXTENSIONS
+    The parties hereto may elect to extend this Agreement upon such terms and conditions
+    as may be agreed upon in writing and signed by the parties at the time of any
+    such extension.## ARTICLE IV-DETERMINATION OF RENTSection 1. Monthly
+    Rent: The Tenant agrees to pay the Landlord and the Landlord agrees to accept,
+    during the term hereof, at such place as the Landlord shall from time to time
+    direct by notice to the Tenant, monthly rent set forth in the following table:
+    | Initial Period of December 1, 2013 to May 31, 2014:__| $ 0___|
+    |-------------------------------------------------------|----------|
+    | June 1, 2014 to May 31, 2015:_____________| $ 30,000 || June
+    1, 2015 to May 31, 2016:_____________| $ 40,000 || June 1, 2016
+    to May 31, 2017:_____________| $ 50,000 || June 1, 2017 to May
+    31, 2018:_____________| $ 60,000 || June 1, 2019 to May 31, 2020:_
+    ____________| $ 70,000 |
+  question: "During which time periods is the monthly rent $50,000? "
 - answer: 'The organizations mentioned in this agreement includes: Temple CB, LLC,
     and Okra Energy, Inc.
 
     '
-  context: "## COMMERCIAL LEASE AGREEMENT\n\nTHIS LEASE AGREEMENT is made and entered\
-    \ into on December 1, 2013, by and between Temple CB, LLC, whose address is 4350\
-    \ Temple City Boulevard, El Monte, California 91731 (hereinafter referred to as\
-    \ 'Landlord '), and Okra Energy, Inc., whose address is 4350 Temple City Boulevard,\
-    \ El Monte, California 91731 (hereinafter referred to as 'Tenant ').\n\n## ARTICLE\
-    \ I-GRANT OF LEASE\n\nLandlord, in consideration of the rents to be paid and the\
-    \ covenants and agreements to be performed and observed by the Tenant, does hereby\
-    \ lease to the Tenant and the Tenant does hereby lease and take from the Landlord\
-    \ the property described in Exhibit 'A ' attached hereto and by reference made\
-    \ a part hereof (the 'Leased Premises '), together with, as part of the parcel,\
-    \ all improvements located thereon.\n\n## ARTICLE II-LEASE TERM\n\nSection l.\
-    \ Term of Lease. The term of this Lease shall begin on the Commencement Date,\
-    \ as defined in Section 2 of this Article II, and shall terminate on May 31, 2020\
-    \ ('the Termination Date '); provided, however, that at the option of Tenant,\
-    \ Tenant may renew this Lease for five additional successive one-year terms at\
-    \ a Monthly Rent of $100,000 per month, provided that notice of such renewal is\
-    \ given in writing no less than 120 days prior to the Termination Date or the\
-    \ expiration of any one-year renewal term. Tenant may at any time cancel this\
-    \ Lease and terminate all of its obligations hereunder by the payment of $300,000,\
-    \ plus all other amounts then due under this Lease.\n\nSection 2. Commencement\
-    \ Date. The 'Commencement Date ' shall mean December 1, 2013.\n\n## ARTICLE III-EXTENSIONS\n\
-    \nThe parties hereto may elect to extend this Agreement upon such terms and conditions\
-    \ as may be agreed upon in writing and signed by the parties at the time of any\
-    \ such extension.\n\n## ARTICLE IV-DETERMINATION OF RENT\n\nSection 1. Monthly\
-    \ Rent: The Tenant agrees to pay the Landlord and the Landlord agrees to accept,\
-    \ during the term hereof, at such place as the Landlord shall from time to time\
-    \ direct by notice to the Tenant, monthly rent set forth in the following table:\n\
-    \n| Initial Period of December 1, 2013 to May 31, 2014:\_\_| $ 0\_\_\_|\n|-------------------------------------------------------|----------|\n\
-    | June 1, 2014 to May 31, 2015:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 30,000 |\n| June\
-    \ 1, 2015 to May 31, 2016:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 40,000 |\n| June 1, 2016\
-    \ to May 31, 2017:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 50,000 |\n| June 1, 2017 to May\
-    \ 31, 2018:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 60,000 |\n| June 1, 2019 to May 31, 2020:\_\
-    \_\_\_\_\_\_\_\_\_\_\_\_| $ 70,000 |\n"
+  context: >
+    ## COMMERCIAL LEASE AGREEMENTTHIS LEASE AGREEMENT is made and entered
+    into on December 1, 2013, by and between Temple CB, LLC, whose address is 4350
+    Temple City Boulevard, El Monte, California 91731 (hereinafter referred to as
+    'Landlord '), and Okra Energy, Inc., whose address is 4350 Temple City Boulevard,
+    El Monte, California 91731 (hereinafter referred to as 'Tenant ').## ARTICLE
+    I-GRANT OF LEASELandlord, in consideration of the rents to be paid and the
+    covenants and agreements to be performed and observed by the Tenant, does hereby
+    lease to the Tenant and the Tenant does hereby lease and take from the Landlord
+    the property described in Exhibit 'A ' attached hereto and by reference made
+    a part hereof (the 'Leased Premises '), together with, as part of the parcel,
+    all improvements located thereon.## ARTICLE II-LEASE TERMSection l.
+    Term of Lease. The term of this Lease shall begin on the Commencement Date,
+    as defined in Section 2 of this Article II, and shall terminate on May 31, 2020
+    ('the Termination Date '); provided, however, that at the option of Tenant,
+    Tenant may renew this Lease for five additional successive one-year terms at
+    a Monthly Rent of $100,000 per month, provided that notice of such renewal is
+    given in writing no less than 120 days prior to the Termination Date or the
+    expiration of any one-year renewal term. Tenant may at any time cancel this
+    Lease and terminate all of its obligations hereunder by the payment of $300,000,
+    plus all other amounts then due under this Lease.Section 2. Commencement
+    Date. The 'Commencement Date ' shall mean December 1, 2013.## ARTICLE III-EXTENSIONS
+    The parties hereto may elect to extend this Agreement upon such terms and conditions
+    as may be agreed upon in writing and signed by the parties at the time of any
+    such extension.## ARTICLE IV-DETERMINATION OF RENTSection 1. Monthly
+    Rent: The Tenant agrees to pay the Landlord and the Landlord agrees to accept,
+    during the term hereof, at such place as the Landlord shall from time to time
+    direct by notice to the Tenant, monthly rent set forth in the following table:
+    | Initial Period of December 1, 2013 to May 31, 2014:__| $ 0___|
+    |-------------------------------------------------------|----------|
+    | June 1, 2014 to May 31, 2015:_____________| $ 30,000 || June
+    1, 2015 to May 31, 2016:_____________| $ 40,000 || June 1, 2016
+    to May 31, 2017:_____________| $ 50,000 || June 1, 2017 to May
+    31, 2018:_____________| $ 60,000 || June 1, 2019 to May 31, 2020:_
+    ____________| $ 70,000 |
   question: 'What organizations are mentioned in this agreement? '
-- answer: "The lease beginning date is December 1, 2013, and the end date is May 31,\
-    \ 2020. \n"
-  context: "## COMMERCIAL LEASE AGREEMENT\n\nTHIS LEASE AGREEMENT is made and entered\
-    \ into on December 1, 2013, by and between Temple CB, LLC, whose address is 4350\
-    \ Temple City Boulevard, El Monte, California 91731 (hereinafter referred to as\
-    \ 'Landlord '), and Okra Energy, Inc., whose address is 4350 Temple City Boulevard,\
-    \ El Monte, California 91731 (hereinafter referred to as 'Tenant ').\n\n## ARTICLE\
-    \ I-GRANT OF LEASE\n\nLandlord, in consideration of the rents to be paid and the\
-    \ covenants and agreements to be performed and observed by the Tenant, does hereby\
-    \ lease to the Tenant and the Tenant does hereby lease and take from the Landlord\
-    \ the property described in Exhibit 'A ' attached hereto and by reference made\
-    \ a part hereof (the 'Leased Premises '), together with, as part of the parcel,\
-    \ all improvements located thereon.\n\n## ARTICLE II-LEASE TERM\n\nSection l.\
-    \ Term of Lease. The term of this Lease shall begin on the Commencement Date,\
-    \ as defined in Section 2 of this Article II, and shall terminate on May 31, 2020\
-    \ ('the Termination Date '); provided, however, that at the option of Tenant,\
-    \ Tenant may renew this Lease for five additional successive one-year terms at\
-    \ a Monthly Rent of $100,000 per month, provided that notice of such renewal is\
-    \ given in writing no less than 120 days prior to the Termination Date or the\
-    \ expiration of any one-year renewal term. Tenant may at any time cancel this\
-    \ Lease and terminate all of its obligations hereunder by the payment of $300,000,\
-    \ plus all other amounts then due under this Lease.\n\nSection 2. Commencement\
-    \ Date. The 'Commencement Date ' shall mean December 1, 2013.\n\n## ARTICLE III-EXTENSIONS\n\
-    \nThe parties hereto may elect to extend this Agreement upon such terms and conditions\
-    \ as may be agreed upon in writing and signed by the parties at the time of any\
-    \ such extension.\n\n## ARTICLE IV-DETERMINATION OF RENT\n\nSection 1. Monthly\
-    \ Rent: The Tenant agrees to pay the Landlord and the Landlord agrees to accept,\
-    \ during the term hereof, at such place as the Landlord shall from time to time\
-    \ direct by notice to the Tenant, monthly rent set forth in the following table:\n\
-    \n| Initial Period of December 1, 2013 to May 31, 2014:\_\_| $ 0\_\_\_|\n|-------------------------------------------------------|----------|\n\
-    | June 1, 2014 to May 31, 2015:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 30,000 |\n| June\
-    \ 1, 2015 to May 31, 2016:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 40,000 |\n| June 1, 2016\
-    \ to May 31, 2017:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 50,000 |\n| June 1, 2017 to May\
-    \ 31, 2018:\_\_\_\_\_\_\_\_\_\_\_\_\_| $ 60,000 |\n| June 1, 2019 to May 31, 2020:\_\
-    \_\_\_\_\_\_\_\_\_\_\_\_| $ 70,000 |\n"
-  question: "What is the lease beginning and end date? \n"
-- answer: "The late payment is defined as he tenant must be late on rent three times\
-    \ or more and each late payment must be\_ten or more days past the due date.\n\
-    \n"
-  context: '## ARTICLE XVI-DEFAULT
+- answer: >
+    The lease beginning date is December 1, 2013, and the end date is May 31,
+    2020. "
+  context: >
+    ## COMMERCIAL LEASE AGREEMENTTHIS LEASE AGREEMENT is made and entered
+    into on December 1, 2013, by and between Temple CB, LLC, whose address is 4350
+    Temple City Boulevard, El Monte, California 91731 (hereinafter referred to as
+    'Landlord '), and Okra Energy, Inc., whose address is 4350 Temple City Boulevard,
+    El Monte, California 91731 (hereinafter referred to as 'Tenant ').## ARTICLE
+    I-GRANT OF LEASELandlord, in consideration of the rents to be paid and the
+    covenants and agreements to be performed and observed by the Tenant, does hereby
+    lease to the Tenant and the Tenant does hereby lease and take from the Landlord
+    the property described in Exhibit 'A ' attached hereto and by reference made
+    a part hereof (the 'Leased Premises '), together with, as part of the parcel,
+    all improvements located thereon.## ARTICLE II-LEASE TERMSection l.
+    Term of Lease. The term of this Lease shall begin on the Commencement Date,
+    as defined in Section 2 of this Article II, and shall terminate on May 31, 2020
+    ('the Termination Date '); provided, however, that at the option of Tenant,
+    Tenant may renew this Lease for five additional successive one-year terms at
+    a Monthly Rent of $100,000 per month, provided that notice of such renewal is
+    given in writing no less than 120 days prior to the Termination Date or the
+    expiration of any one-year renewal term. Tenant may at any time cancel this
+    Lease and terminate all of its obligations hereunder by the payment of $300,000,
+    plus all other amounts then due under this Lease.Section 2. Commencement
+    Date. The 'Commencement Date ' shall mean December 1, 2013.## ARTICLE III-EXTENSIONS
+    The parties hereto may elect to extend this Agreement upon such terms and conditions
+    as may be agreed upon in writing and signed by the parties at the time of any
+    such extension.## ARTICLE IV-DETERMINATION OF RENTSection 1. Monthly
+    Rent: The Tenant agrees to pay the Landlord and the Landlord agrees to accept,
+    during the term hereof, at such place as the Landlord shall from time to time
+    direct by notice to the Tenant, monthly rent set forth in the following table:
+    | Initial Period of December 1, 2013 to May 31, 2014:__| $ 0___|
+    |-------------------------------------------------------|----------|
+    | June 1, 2014 to May 31, 2015:_____________| $ 30,000 || June
+    1, 2015 to May 31, 2016:_____________| $ 40,000 || June 1, 2016
+    to May 31, 2017:_____________| $ 50,000 || June 1, 2017 to May
+    31, 2018:_____________| $ 60,000 || June 1, 2019 to May 31, 2020:_
+    ____________| $ 70,000 |
+  question: "What is the lease beginning and end date? "
+- answer: >
+    The late payment is defined as he tenant must be late on rent three times
+    or more and each late payment must be_ten or more days past the due date.
+    "
+  context: >
+    ## ARTICLE XVI-DEFAULT
 
 
     ## Section 1. Landlord''s Remedies. In the event that:
@@ -172,10 +183,12 @@ seed_examples:
     sum shall be deemed immediately due and payable; or
 
     '
-  question: "What is the definitions of late payment from the tenant, before it triggers\
-    \ possible consequences for the tenant? \n"
-- answer: "30 days. \n"
-  context: '## ARTICLE XVI-DEFAULT
+  question: >
+    What is the definitions of late payment from the tenant, before it triggers
+    possible consequences for the tenant? "
+- answer: "30 days. "
+  context: >
+    ## ARTICLE XVI-DEFAULT
 
 
     ## Section 1. Landlord''s Remedies. In the event that:
@@ -241,7 +254,8 @@ seed_examples:
     lease up to the date of termination.
 
     '
-  context: '## ARTICLE XVI-DEFAULT
+  context: >
+    ## ARTICLE XVI-DEFAULT
 
 
     ## Section 1. Landlord''s Remedies. In the event that:
@@ -304,6 +318,4 @@ seed_examples:
     to the tenant''s bankruptcy?
 
     '
-task_description: 'extracting content from an email
-
-  '
+task_description: ''
