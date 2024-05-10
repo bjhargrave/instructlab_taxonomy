@@ -5,7 +5,6 @@ name: CoC violation analysis
 run-name: Running CoC violation analysis (#${{ github.event.workflow_run.pull_requests[0].number }})
 
 on:
-  workflow_dispatch: # Allow manual trigger
   workflow_run:
     workflows:
       - Lint
@@ -25,7 +24,7 @@ permissions:
 jobs:
   annotator-insights:
     runs-on: ubuntu-latest
-    if: ${{ (github.event.workflow_run.conclusion == 'success') }}
+    if: ${{ (github.event.workflow_run.conclusion == 'success') && (github.event.workflow_run.pull_requests[0].number != null) }}
     name: Run annotator insights
     steps:
       - name: "Harden Runner"
